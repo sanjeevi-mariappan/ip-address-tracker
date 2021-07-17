@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500&display=swap');
+
+.bg-design{
+    background-image: url('images/pattern-bg.png');
+    height: 11rem;
+}
+
+.left-rounded-corners{
+    border-radius: 0.4rem 0rem 0rem 0.4rem;
+    border-style: none;
+}
+
+.round-top{
+    border-radius: 1rem 1rem 0 0;
+}
+
+.ipaddress-bar{
+    position: absolute;
+    top: 5rem;
+    left: 28rem;
+}
+
+#ipaddress{
+    height: 2.6rem;
+    font-family: monospace;
+}
+#ipaddress:focus{
+    outline: none;
+}
+
+#myMap{
+    height: 24rem;
+    border-radius: 0 0 1rem 1rem;
+    z-index: 0;
+}
+
+.result-box{
+    position: absolute;
+    top: 11.3rem;
+    z-index: 1;
+    left: 20%;
+    height: 5.5rem;
+    width: 50rem;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.result{
+    width: 25%;
+}
+
+.result-box-text{
+    font-family: 'Rubik', sans-serif;
+}
